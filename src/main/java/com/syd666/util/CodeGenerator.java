@@ -129,7 +129,7 @@ public class CodeGenerator {
         strategy.setTablePrefix(TABLE_PREFIX);
         strategy.setNaming(NamingStrategy.underline_to_camel);
         strategy.setColumnNaming(NamingStrategy.underline_to_camel);
-        strategy.setEntityLombokModel(false);
+        strategy.setEntityLombokModel(true);
         strategy.setRestControllerStyle(true);
         strategy.setInclude(scanner());
 //        strategy.setSuperEntityColumns("id");
