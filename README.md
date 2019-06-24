@@ -1,2 +1,2 @@
-# syd_commons
-省游灯-公共基础库
+# mybatis-plus-generator
+mybatis plus 代码生成器
