@@ -1,4 +1,4 @@
-package com.syd666.util;
+package com.perfecton.util;
 
 
 import com.baomidou.mybatisplus.core.exceptions.MybatisPlusException;
@@ -23,7 +23,7 @@ public class CodeGenerator {
      * 数据库相关的参数
      */
     private static final String JDBC_DRIVER_NAME = "com.mysql.cj.jdbc.Driver";
-    private static final String JDBC_URL = "jdbc:mysql://10.249.1.249:3306/sydltd_hotel?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=GMT%2B8";
+    private static final String JDBC_URL = "jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=GMT%2B8";
     private static final String JDBC_USERNAME = "root";
     private static final String JDBC_PASSWORD = "123456";
 
@@ -35,11 +35,11 @@ public class CodeGenerator {
     // 输出目录
     private static final String OUTPUT_DIR = PROJECT_PATH + "/src/main/java/";
     // 父包名
-    private static final String PARENT_PACKAGE = "com.syd666.hotel";
+    private static final String PARENT_PACKAGE = "com.perfecton.hotel";
     // 存放mybatis映射文件的地方
     private static final String MAPPER_DIR = PROJECT_PATH + "/src/main/resources/mapper/";
     // 表的前缀
-    private static final String TABLE_PREFIX = "syd_hotel";  // syd_hotel
+    private static final String TABLE_PREFIX = "";  // syd_hotel
 
 
     public CodeGenerator() {

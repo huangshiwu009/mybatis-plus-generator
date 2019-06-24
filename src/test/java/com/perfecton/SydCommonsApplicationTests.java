@@ -1,4 +1,4 @@
-package com.syd666;
+package com.perfecton;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
